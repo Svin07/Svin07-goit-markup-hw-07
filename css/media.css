@@ -33,38 +33,39 @@
   .mob-menu-phone {
     font-size: 36px;
   }
+}
 
+.hero {
+  background-color: var(--dark-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office_tab_x1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero {
-    background-color: var(--dark-color);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office_tab_x1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+      url(../images/people-office_tab@2x.jpg);
   }
+}
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/people-office_tab@2x.jpg);
-    }
-  }
+.container {
+  width: 428px;
+}
 
-  .container {
-    width: 428px;
-  }
-
-  .modal {
-    width: 408px;
-    height: 584px;
+.modal {
+  width: 408px;
+  height: 584px;
 }
 
 /* ПЛАНШЕТ */
