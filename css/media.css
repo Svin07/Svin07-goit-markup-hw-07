@@ -61,6 +61,10 @@
   .container {
     width: 428px;
   }
+
+  .modal {
+    width: 408px;
+    height: 584px;
 }
 
 /* ПЛАНШЕТ */
@@ -178,13 +182,18 @@
     flex-basis: calc((100% - 24px) / 2);
   }
 
+  .advantages-list-name {
+    text-align: left;
+  }
   .team-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 64px 24px;
   }
 
   .team-list-picture {
+    width: 100%;
     width: calc((100% - 24px) / 2);
   }
 
