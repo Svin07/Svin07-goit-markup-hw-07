@@ -40,6 +40,10 @@ body {
   background-color: var(--light-background);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .list {
   list-style: none;
 }

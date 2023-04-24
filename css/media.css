@@ -27,6 +27,12 @@
   .footer-title {
     text-align: center;
   }
+
+  .modal {
+    overflow-y: auto;
+    max-height: 576px;
+    height: 90%;
+  }
 }
 
 @media screen and (min-width: 428px) {
@@ -154,6 +160,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+  .modal {
+    overflow-y: auto;
+    max-height: 576px;
+    height: 90%;
   }
 
   @media (min-device-pixel-ratio: 2),
