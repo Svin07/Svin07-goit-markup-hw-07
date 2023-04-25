@@ -146,7 +146,7 @@ body {
   background-color: #ffffff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  transform: translateX(100%);
+  transform: translateX(140%);
   transition: transform 250ms ease-in-out;
 }
 
@@ -241,34 +241,6 @@ body {
 
 /* Main */
 
-.hero {
-  background-color: var(--dark-color);
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office_mob_x1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding-top: 112px;
-  padding-bottom: 112px;
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office_mob@2x.jpg);
-  }
-}
-
 .hero-text {
   font-weight: 700;
   font-size: 36px;
@@ -341,9 +313,6 @@ body {
   color: var(--text-color);
 }
 
-.team {
-  background-color: var(--another-background);
-}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -476,12 +445,6 @@ body {
 }
 
 /* FOOTER */
-
-.basement {
-  background-color: var(--dark-color);
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
 
 .basement-text {
   font-size: 16px;

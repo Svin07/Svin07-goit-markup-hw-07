@@ -1,5 +1,45 @@
 /* СМАРТФОН */
 
+@media screen and (max-width: 427px) {
+  .hero-container {
+    background-color: var(--dark-color);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office_mob_x1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office_mob@2x.jpg);
+    }
+  }
+
+  .team-container {
+    background-color: var(--another-background);
+  }
+
+  .basement-container {
+    background-color: var(--dark-color);
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .navigation-list,
   .contacts {
@@ -38,6 +78,44 @@
 @media screen and (min-width: 428px) {
   .mob-menu-phone {
     font-size: 36px;
+  }
+
+  .hero {
+    background-color: var(--dark-color);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office_mob_x1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office_mob@2x.jpg);
+    }
+  }
+
+  .team {
+    background-color: var(--another-background);
+  }
+
+  .basement {
+    background-color: var(--dark-color);
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 }
 
