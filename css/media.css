@@ -1,7 +1,10 @@
 /* СМАРТФОН */
 
 @media screen and (max-width: 427px) {
-  .hero-container {
+  /* .container {
+    width: 280px;
+  } */
+  .hero {
     background-color: var(--dark-color);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -29,14 +32,17 @@
     }
   }
 
-  .team-container {
+  .team {
     background-color: var(--another-background);
   }
 
-  .basement-container {
+  .basement {
     background-color: var(--dark-color);
     padding-top: 96px;
     padding-bottom: 96px;
+  }
+  .modal {
+    width: 300px;
   }
 }
 
@@ -76,6 +82,13 @@
 }
 
 @media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+  .navigation {
+    margin-right: 76px;
+  }
+
   .mob-menu-phone {
     font-size: 36px;
   }
@@ -141,15 +154,6 @@
       ),
       url(../images/people-office_tab@2x.jpg);
   }
-}
-
-.container {
-  width: 428px;
-}
-
-.modal {
-  width: 408px;
-  height: 584px;
 }
 
 /* ПЛАНШЕТ */
